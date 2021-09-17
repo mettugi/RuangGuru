@@ -1,0 +1,8 @@
+describe('Search contain word(s)', () => {
+  it('Search SQL', () => {
+    cy.visit('https://skillacademy.com/)
+
+    cy.get('[data-testid="search-input-field"]')
+      .type('S'{enter})
+  })
+})
